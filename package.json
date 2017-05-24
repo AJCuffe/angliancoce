@@ -5,14 +5,11 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "npm start ./server/api/server",
-    "client": "npm start --prefix ./client/"
+    "start": "npm start ./server/api/server | npm start --prefix ./client/"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^3.4.0",
     "prop-types": "^15.5.10"
   },
   "devDependencies": {
