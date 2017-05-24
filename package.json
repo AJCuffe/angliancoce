@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^3.4.0",
     "prop-types": "^15.5.10"
   },
   "devDependencies": {

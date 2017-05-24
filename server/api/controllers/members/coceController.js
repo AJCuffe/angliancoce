@@ -3,7 +3,7 @@
 const neo4j = require("neo4j-driver").v1;
 
 // Connect to Neo4j Database.
-const driver = neo4j.driver("bolt://localhost", neo4j.auth.basic("neo4j", "adamcuffe"));
+const driver = neo4j.driver('bolt://hobby-kgjglgkmojekgbkecfdckipl.dbs.graphenedb.com:24786', neo4j.auth.basic('cocealliance', 'b.WY2QIX79Smut.F4myGJ0XU2z2cCEe'));
 
 // If connection fails, alert the server.
 driver.onError = function (error) {
